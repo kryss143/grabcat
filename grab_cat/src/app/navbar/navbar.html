@@ -1,0 +1,123 @@
+<div class="navbar bg-base-100 shadow-md">
+  <!-- LEFT: Logo (desktop) + Hamburger (mobile) -->
+  <div class="navbar-start">
+    <!-- Hamburger (mobile only) -->
+    <div class="dropdown lg:hidden">
+      <label tabindex="0" class="btn btn-ghost btn-circle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="size-10"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </label>
+
+      <!-- Dropdown Menu -->
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content mt-3 z-1 p-2 shadow bg-base-100 rounded-box w-52 space-y-6 text-xl"
+      >
+        <li>
+          <a
+            routerLink="/"
+            [class]="{
+              'hover:text-primary transition-colors font-medium': true,
+              'text-primary': true,
+            }"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            routerLink="/about"
+            [class]="{
+              'hover:text-primary transition-colors font-medium': true,
+              'text-primary': true,
+            }"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            routerLink="/services"
+            [class]="{
+              'hover:text-primary transition-colors font-medium': true,
+              'text-primary': true,
+            }"
+            >Services</a
+          >
+        </li>
+        <li>
+          <a
+            routerLink="/booking"
+            [class]="{
+              'hover:text-primary transition-colors font-medium': true,
+              'text-primary': true,
+            }"
+            >Booking</a
+          >
+        </li>
+        <li>
+          <a
+            routerLink="/contact"
+            [class]="{
+              'hover:text-primary transition-colors font-medium': true,
+              'text-primary': true,
+            }"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <a class="btn normal-case text-xl hover:bg-transparent hover:border-transparent lg:flex">
+        <img src="./grabcat_navbar_logo.svg" alt="GrabCat Logo" class="h-15 w-auto mr-2" />
+      </a>
+    </div>
+
+    <!-- Logo -->
+    <a
+      class="btn btn-ghost normal-case hover:bg-transparent hover:border-transparent text-xl hidden lg:flex"
+    >
+      <img src="./grabcat_navbar_logo.svg" alt="GrabCat Logo" class="h-15 w-auto mr-2" />
+    </a>
+  </div>
+
+  <!-- CENTER: Links (desktop only) -->
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 space-x-10 text-xl">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/about">About</a></li>
+      <li><a routerLink="/services">Services</a></li>
+      <li><a routerLink="/booking">Booking</a></li>
+      <li><a routerLink="/contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- RIGHT: Options Icon -->
+  <div class="navbar-end">
+    <button class="btn btn-ghost btn-circle">
+      <!-- Example: dots icon -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        class="size-10"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6.75 12h.008v.008H6.75V12zm5.25 0h.008v.008H12V12zm5.25 0h.008v.008h-.008V12z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
