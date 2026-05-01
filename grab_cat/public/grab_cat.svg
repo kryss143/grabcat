@@ -1,1 +1,53 @@
-<svg width="100%" viewBox="0 0 680 300" role="img" xmlns="http://www.w3.org/2000/svg"><title>GrabCat Logo v3 Green Pointy Ears</title><desc>A retro badge-style GrabCat logo in green with pointy cat ears and circular emblem</desc><defs><mask id="imagine-text-gaps-kp7xno" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="300" fill="white"/><rect x="96.48207092285156" y="53.72197341918945" width="107.03585815429688" height="19.111416816711426" fill="black" rx="2"/><rect x="101.33720397949219" y="231.61090087890625" width="97.32559204101562" height="17.22248935699463" fill="black" rx="2"/><rect x="286" y="50.44291687011719" width="225.30039978027344" height="97.50189208984375" fill="black" rx="2"/><rect x="286" y="137.4429168701172" width="158.56625366210938" height="97.50189208984375" fill="black" rx="2"/><rect x="287.0555419921875" y="232.77749633789062" width="269.21795654296875" height="20.055879592895508" fill="black" rx="2"/></mask></defs><!-- Badge rings --><circle cx="150" cy="150" r="110" style="fill:rgb(99,153,34);stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1"/><circle cx="150" cy="150" r="100" style="fill:rgb(23,52,4);stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1"/><circle cx="150" cy="150" r="95" style="fill:rgb(59,109,17);stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1"/><circle cx="150" cy="150" r="85" style="fill:rgb(23,52,4);stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1"/><!-- Pointy ears: triangles with slightly rounded tips --><polygon points="108,128 122,72 148,118" style="fill:rgb(192,221,151);stroke:none;stroke-width:1px;opacity:1"/><polygon points="152,118 178,72 192,128" style="fill:rgb(192,221,151);stroke:none;stroke-width:1px;opacity:1"/><!-- Inner ear accent --><polygon points="114,124 124,88 142,118" fill="#3B6D11" style="stroke:none;opacity:1"/><polygon points="158,118 176,88 186,124" fill="#3B6D11" style="stroke:none;opacity:1"/><!-- Cat head --><circle cx="150" cy="155" r="52" style="fill:rgb(192,221,151);stroke:none;opacity:1"/><!-- Face highlight --><circle cx="150" cy="160" r="32" style="fill:rgb(23,52,4);stroke:none;opacity:1"/><!-- Eyes --><ellipse cx="138" cy="152" rx="8" ry="9" style="fill:rgb(192,221,151);stroke:none;opacity:1"/><ellipse cx="162" cy="152" rx="8" ry="9" style="fill:rgb(192,221,151);stroke:none;opacity:1"/><!-- Eye shine --><circle cx="141" cy="149" r="2.5" fill="#EAF3DE" style="stroke:none;opacity:1"/><circle cx="165" cy="149" r="2.5" fill="#EAF3DE" style="stroke:none;opacity:1"/><!-- Nose --><polygon points="150,166 145,172 155,172" style="fill:rgb(250,199,117);stroke:none;opacity:1"/><!-- Mouth --><path d="M145,173 Q150,179 155,173" fill="none" stroke="#3B6D11" stroke-width="1.5" stroke-linecap="round" style="opacity:1"/><!-- Whiskers --><line x1="118" y1="167" x2="140" y2="170" stroke="#3B6D11" stroke-width="1" stroke-linecap="round" style="opacity:1"/><line x1="116" y1="173" x2="140" y2="173" stroke="#3B6D11" stroke-width="1" stroke-linecap="round" style="opacity:1"/><line x1="160" y1="170" x2="182" y2="167" stroke="#3B6D11" stroke-width="1" stroke-linecap="round" style="opacity:1"/><line x1="160" y1="173" x2="184" y2="173" stroke="#3B6D11" stroke-width="1" stroke-linecap="round" style="opacity:1"/><!-- Paw at bottom of badge --><circle cx="150" cy="224" r="14" style="fill:rgb(192,221,151);stroke:none;opacity:1"/><circle cx="133" cy="216" r="8" style="fill:rgb(192,221,151);stroke:none;opacity:1"/><circle cx="167" cy="216" r="8" style="fill:rgb(192,221,151);stroke:none;opacity:1"/><circle cx="143" cy="210" r="7" style="fill:rgb(192,221,151);stroke:none;opacity:1"/><circle cx="157" cy="210" r="7" style="fill:rgb(192,221,151);stroke:none;opacity:1"/><!-- Badge ring text --><text x="150" y="68" font-family="system-ui,sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="7" style="fill:rgb(192,221,151);stroke:none;opacity:1">GRABCAT</text><text x="150" y="244" font-family="system-ui,sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="5" style="fill:rgb(192,221,151);stroke:none;opacity:1">EST. 2025</text><!-- Diamond separators --><rect x="63" y="147" width="7" height="7" rx="1" transform="rotate(45 66 150)" style="fill:rgb(250,199,117);stroke:none;opacity:1"/><rect x="224" y="147" width="7" height="7" rx="1" transform="rotate(45 227 150)" style="fill:rgb(250,199,117);stroke:none;opacity:1"/></svg>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>GrabCat Favicon</title>
+
+  <!-- Outer badge ring -->
+  <circle cx="32" cy="32" r="31" fill="rgb(99,153,34)"/>
+  <circle cx="32" cy="32" r="27" fill="rgb(23,52,4)"/>
+  <circle cx="32" cy="32" r="24" fill="rgb(59,109,17)"/>
+  <circle cx="32" cy="32" r="20" fill="rgb(23,52,4)"/>
+
+  <!-- Pointy ears -->
+  <polygon points="20,26 26,10 33,24" fill="rgb(192,221,151)"/>
+  <polygon points="31,24 38,10 44,26" fill="rgb(192,221,151)"/>
+  <!-- Inner ear -->
+  <polygon points="22,24 26,14 31,23" fill="#3B6D11"/>
+  <polygon points="33,23 38,14 42,24" fill="#3B6D11"/>
+
+  <!-- Cat head -->
+  <circle cx="32" cy="35" r="16" fill="rgb(192,221,151)"/>
+
+  <!-- Face dark circle -->
+  <circle cx="32" cy="37" r="9" fill="rgb(23,52,4)"/>
+
+  <!-- Eyes -->
+  <ellipse cx="27" cy="33" rx="3.5" ry="4" fill="rgb(192,221,151)"/>
+  <ellipse cx="37" cy="33" rx="3.5" ry="4" fill="rgb(192,221,151)"/>
+
+  <!-- Eye shine -->
+  <circle cx="28.5" cy="32" r="1.2" fill="#EAF3DE"/>
+  <circle cx="38.5" cy="32" r="1.2" fill="#EAF3DE"/>
+
+  <!-- Nose -->
+  <polygon points="32,40 29.5,43 34.5,43" fill="rgb(250,199,117)"/>
+
+  <!-- Mouth -->
+  <path d="M29,43.5 Q32,46 35,43.5" fill="none" stroke="#3B6D11" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Whiskers -->
+  <line x1="15" y1="38" x2="26" y2="40" stroke="#3B6D11" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="15" y1="41" x2="26" y2="41.5" stroke="#3B6D11" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="38" y1="40" x2="49" y2="38" stroke="#3B6D11" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="38" y1="41.5" x2="49" y2="41" stroke="#3B6D11" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Paw at bottom -->
+  <circle cx="32" cy="55" r="5" fill="rgb(192,221,151)"/>
+  <circle cx="26" cy="52" r="3" fill="rgb(192,221,151)"/>
+  <circle cx="38" cy="52" r="3" fill="rgb(192,221,151)"/>
+  <circle cx="29" cy="50" r="2.5" fill="rgb(192,221,151)"/>
+  <circle cx="35" cy="50" r="2.5" fill="rgb(192,221,151)"/>
+
+  <!-- Diamond separators -->
+  <rect x="5" y="29.5" width="5" height="5" rx="0.5" transform="rotate(45 7.5 32)" fill="rgb(250,199,117)"/>
+  <rect x="54" y="29.5" width="5" height="5" rx="0.5" transform="rotate(45 56.5 32)" fill="rgb(250,199,117)"/>
+</svg>

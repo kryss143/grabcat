@@ -8,6 +8,154 @@
     forest;
 }
 
+:root {
+  /* Palette */
+  --logo-grab: #97c459;
+  --logo-cat: #eaf3de;
+  --logo-circle-inner: #173404;
+  --logo-circle-outer: #639922;
+  --logo-light-green: #c0dd97;
+  --logo-mint-green: #c0dd97;
+  --logo-grey: #acaca7;
+  --logo-dark-grey: #313131;
+  --logo-dark-peach: #d2ad61;
+  --logo-peach: #fac775;
+
+  /* Shades */
+  --logo-grab-dark-100: color-mix(in srgb, var(--logo-grab) 10%, black);
+  --logo-grab-dark-200: color-mix(in srgb, var(--logo-grab) 20%, black);
+  --logo-grab-dark-300: color-mix(in srgb, var(--logo-grab) 30%, black);
+  --logo-grab-dark-400: color-mix(in srgb, var(--logo-grab) 40%, black);
+  --logo-grab-dark-500: color-mix(in srgb, var(--logo-grab) 50%, black);
+  --logo-grab-dark-600: color-mix(in srgb, var(--logo-grab) 60%, black);
+  --logo-grab-dark-700: color-mix(in srgb, var(--logo-grab) 70%, black);
+  --logo-grab-dark-800: color-mix(in srgb, var(--logo-grab) 80%, black);
+  --logo-grab-dark-900: color-mix(in srgb, var(--logo-grab) 90%, black);
+
+  /* Tints */
+  --logo-grab-light-100: color-mix(in srgb, var(--logo-grab) 90%, white);
+  --logo-grab-light-200: color-mix(in srgb, var(--logo-grab) 80%, white);
+  --logo-grab-light-300: color-mix(in srgb, var(--logo-grab) 70%, white);
+  --logo-grab-light-400: color-mix(in srgb, var(--logo-grab) 60%, white);
+  --logo-grab-light-500: color-mix(in srgb, var(--logo-grab) 50%, white);
+  --logo-grab-light-600: color-mix(in srgb, var(--logo-grab) 40%, white);
+  --logo-grab-light-700: color-mix(in srgb, var(--logo-grab) 30%, white);
+  --logo-grab-light-800: color-mix(in srgb, var(--logo-grab) 20%, white);
+  --logo-grab-light-900: color-mix(in srgb, var(--logo-grab) 10%, white);
+}
+
+.logo-grab {
+  color: var(--logo-grab);
+}
+
+.logo-cat {
+  color: var(--logo-cat);
+}
+
+.logo-circle-inner {
+  color: var(--logo-circle-inner);
+}
+
+.logo-circle-outer {
+  color: var(--logo-circle-outer);
+}
+
+.logo-light-green {
+  color: var(--logo-light-green);
+}
+
+.logo-mint-green {
+  color: var(--logo-mint-green);
+}
+
+.logo-grey {
+  color: var(--logo-grey);
+}
+
+.logo-dark-grey {
+  color: var(--logo-dark-grey);
+}
+
+.logo-dark-peach {
+  color: var(--logo-dark-peach);
+}
+
+.logo-peach {
+  color: var(--logo-peach);
+}
+
+.logo-grab-dark-100 {
+  color: var(--logo-grab-dark-100);
+}
+
+.logo-grab-dark-200 {
+  color: var(--logo-grab-dark-200);
+}
+
+.logo-grab-dark-300 {
+  color: var(--logo-grab-dark-300);
+}
+
+.logo-grab-dark-400 {
+  color: var(--logo-grab-dark-400);
+}
+
+.logo-grab-dark-500 {
+  color: var(--logo-grab-dark-500);
+}
+
+.logo-grab-dark-600 {
+  color: var(--logo-grab-dark-600);
+}
+
+.logo-grab-dark-700 {
+  color: var(--logo-grab-dark-700);
+}
+
+.logo-grab-dark-800 {
+  color: var(--logo-grab-dark-800);
+}
+
+.logo-grab-dark-900 {
+  color: var(--logo-grab-dark-900);
+}
+
+.logo-grab-light-100 {
+  color: var(--logo-grab-light-100);
+}
+
+.logo-grab-light-200 {
+  color: var(--logo-grab-light-200);
+}
+
+.logo-grab-light-300 {
+  color: var(--logo-grab-light-300);
+}
+
+.logo-grab-light-400 {
+  color: var(--logo-grab-light-400);
+}
+
+.logo-grab-light-500 {
+  color: var(--logo-grab-light-500);
+}
+
+.logo-grab-light-600 {
+  color: var(--logo-grab-light-600);
+}
+
+.logo-grab-light-700 {
+  color: var(--logo-grab-light-700);
+}
+
+.logo-grab-light-800 {
+  color: var(--logo-grab-light-800);
+}
+
+.logo-grab-light-900 {
+  color: var(--logo-grab-light-900);
+}
+
 #app {
   min-height: 100dvh;
   padding: 0;
