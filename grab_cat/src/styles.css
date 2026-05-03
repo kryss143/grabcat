@@ -11,7 +11,7 @@
 :root {
   /* Palette */
   --logo-grab: #97c459;
-  --logo-cat: #eaf3de;
+  --logo-cat: #4a8c4a;
   --logo-circle-inner: #173404;
   --logo-circle-outer: #639922;
   --logo-light-green: #c0dd97;
@@ -42,6 +42,50 @@
   --logo-grab-light-700: color-mix(in srgb, var(--logo-grab) 30%, white);
   --logo-grab-light-800: color-mix(in srgb, var(--logo-grab) 20%, white);
   --logo-grab-light-900: color-mix(in srgb, var(--logo-grab) 10%, white);
+
+  --font-family: 'Georgia', sans-serif;
+}
+
+h1 span {
+  font-family: var(--font-family);
+  src: url('/src/assets/fonts/georgiaz.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2 span {
+  font-family: var(--font-family);
+  src: url('/src/assets/fonts/georgiaz.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family);
+  src: url('/src/assets/fonts/georgiai.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+p,
+a,
+button {
+  font-family: var(--font-family);
+  src: url('/src/assets/fonts/georgia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p span {
+  font-family: var(--font-family);
+  src: url('/src/assets/fonts/georgiaz.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 .logo-grab {

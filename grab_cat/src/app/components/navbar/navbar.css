@@ -1,0 +1,43 @@
+/* Smooth transition for theme toggle icons */
+.swap .swap-on,
+.swap .swap-off {
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+/* Slight scale for a nicer click feel */
+.swap:active .swap-on,
+.swap:active .swap-off {
+  transform: scale(0.95);
+}
+
+/* Ensure the invisible checkbox doesn't show default focus outline */
+.theme-controller {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Smooth transitions for theme changes (light <-> dark) */
+:root,
+html,
+body,
+.navbar,
+.menu,
+.dropdown,
+.btn,
+.badge,
+.avatar,
+.swap,
+.swap-on,
+.swap-off {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    fill 0.3s ease,
+    stroke 0.3s ease;
+}
