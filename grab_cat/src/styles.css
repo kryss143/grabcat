@@ -46,6 +46,12 @@
   --font-family: 'Georgia', sans-serif;
 }
 
+#app {
+  min-height: 100dvh;
+  padding: 0;
+  margin: 0;
+}
+
 h1 span {
   font-family: var(--font-family);
   src: url('/src/assets/fonts/georgiaz.ttf') format('truetype');
@@ -90,6 +96,15 @@ p span {
 
 .logo-grab {
   color: var(--logo-grab);
+}
+
+.logo-grab-btn {
+  background-color: var(--logo-grab);
+  color: #ffffffec;
+}
+
+.logo-grab-btn:hover {
+  background-color: var(--logo-peach);
 }
 
 .logo-cat {
@@ -198,10 +213,4 @@ p span {
 
 .logo-grab-light-900 {
   color: var(--logo-grab-light-900);
-}
-
-#app {
-  min-height: 100dvh;
-  padding: 0;
-  margin: 0;
 }
