@@ -94,6 +94,13 @@ p span {
   font-style: italic;
 }
 
+a span {
+  font-family: var(--font-family);
+  src: url('/src/assets/fonts/georgiaz.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
 .logo-grab {
   color: var(--logo-grab);
 }
